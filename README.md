@@ -1,2 +1,2 @@
 # animepoisk
-animeposik
+animepoisk
