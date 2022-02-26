@@ -9,6 +9,7 @@ body {
 }
 
 header {
+	width: auto;
 	height: 80px;
 	background-color: #393939;
 	color: #ffffff;
@@ -26,7 +27,7 @@ img {
 
 
 #button_ {
-	height:300px;
+	height: 1400px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -37,7 +38,7 @@ img {
 }
 
 a.button {
-	bottom:0;
+	bottom: 0;
 	background: #4e2c7c;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
