@@ -1,3 +1,13 @@
+body {
+	color: #000000;
+	font: 50px Tahoma, sans-serif;
+	background: #ffffff;
+	margin: 0px;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: nowrap
+}
+
 header {
 	height: 80px;
 	background-color: #393939;
@@ -14,48 +24,20 @@ img {
 	height: 70px;
 }
 
-body {
-	color: #000000;
-	font: 50px Tahoma, sans-serif;
-	background-color: #ffffff;
-	margin: 0;
-}
 
-#random {
-	text-align: left;
+#button_ {
+	height:700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: relative;
-	left: 100px;
-	top: 700px;
-	display: inline-block;
-	font-size: 80px;
-	line-height: 1;
-	font-weight: 100;
-	min-width: ;
-}
-
-#rpoisk {
-	text-align: center;
-	position: relative;
-	left: 100px;
-	top: 700px;
-	display: inline-block;
-	font-size: 80px;
-	line-height: 1;
-	font-weight: 100;
-}
-
-#reitig {
-	text-align: right;
-	position: relative;
-	left: 100px;
-	top: 700px;
-	display: inline-block;
 	font-size: 80px;
 	line-height: 1;
 	font-weight: 100;
 }
 
 a.button {
+	bottom:0;
 	background: #4e2c7c;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
