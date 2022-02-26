@@ -24,34 +24,3 @@ img {
 	width: 70px;
 	height: 70px;
 }
-
-
-#button_ {
-	height: 1400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	font-size: 80px;
-	line-height: 1;
-	font-weight: 100;
-}
-
-a.button {
-	bottom: 0;
-	background: #4e2c7c;
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	border-radius: 20px;
-	padding: 12px;
-	text-decoration: none;
-}
-
-a.button:hover {
-	background: #3e2361;
-}
-
-a.button:focus {
-	outline: none;
-	box-shadow: 0 0 0 4px #cbd6ee;
-}
