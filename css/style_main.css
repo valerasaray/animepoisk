@@ -1,5 +1,15 @@
+body {
+	color: #000000;
+	font: 50px Tahoma, sans-serif;
+	background: #ffffff;
+	margin: 0px;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: nowrap
+}
+
 header {
-	width: 100%;
+	width: auto;
 	height: 80px;
 	background-color: #393939;
 	color: #ffffff;
@@ -15,9 +25,33 @@ img {
 	height: 70px;
 }
 
-body {
-	color: #000000;
-	font: 50px Tahoma, sans-serif;
-	background-color: #ffffff;
-	margin: 0;
+
+#button_ {
+	height: 1400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	font-size: 80px;
+	line-height: 1;
+	font-weight: 100;
+}
+
+a.button {
+	bottom: 0;
+	background: #4e2c7c;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 20px;
+	padding: 12px;
+	text-decoration: none;
+}
+
+a.button:hover {
+	background: #3e2361;
+}
+
+a.button:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
 }
