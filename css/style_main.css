@@ -9,8 +9,9 @@ body {
 }
 
 header {
+	font: clamp(25px, 5vw, 50px) Tahoma, sans-serif;
+	height: clamp(55px, 5vw, 70px);
 	width: auto;
-	height: 80px;
 	background-color: #393939;
 	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
@@ -21,6 +22,23 @@ img {
 	position: absolute;
 	top: 4px;
 	left: 40px;
-	width: 70px;
-	height: 70px;
+	width: clamp(16px, 5vw, 50px);
+	height: clamp(16px, 5vw, 50px);
+}
+
+.btn {
+	text-align: center;
+	display: inline-block;
+	background: linear-gradient(135deg, #f368d5, #a7308d 60%, #991955);
+	color: #fff;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	border-radius: 12px;
+	font-size: clamp(1px, 5vw, 50px);/*динамический размер текста*/
+}
+
+.btn:hover, .btn:focus {
+	color: rgb(255, 255, 255);
+	box-shadow: -1px 1px 2px rgb(182, 55, 171);
+	background-color: rgb(155, 44, 108)
 }
