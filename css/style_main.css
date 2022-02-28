@@ -35,7 +35,6 @@ img {
 	font-size: clamp(11px, 2vw, 50px);
 	width: clamp(80px, 21%, 500px);
 	height: clamp(40px, 20%, 400px);
-
 	display: inline-block;
 	position: relative;
 }
@@ -45,6 +44,29 @@ img {
 }
 
 .btn:hover, .btn:focus {
+	color: rgb(255, 255, 255);
+	box-shadow: -1px 1px 2px rgb(182, 55, 171);
+	background-color: rgb(155, 44, 108)
+}
+
+
+.long_btn {
+	background: linear-gradient(135deg, #f368d5, #a7308d 60%, #991955);
+	color: #fff;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	border-radius: 12px;
+	font-size: clamp(11px, 3vw, 90px);
+	width: clamp(160px, 50%, 700px);
+	height: clamp(40px, 20%, 400px);
+	position: relative;
+}
+
+.long_butt {
+	text-align: center;
+}
+
+.long_btn:hover, .btn:focus {
 	color: rgb(255, 255, 255);
 	box-shadow: -1px 1px 2px rgb(182, 55, 171);
 	background-color: rgb(155, 44, 108)
