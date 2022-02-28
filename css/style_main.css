@@ -39,7 +39,7 @@ img {
 }
 
 .long_butt {
-	margin-top: 100px;
+	margin-top: clamp(20px, 4vw, 60px);
 	text-align: center;
 }
 
