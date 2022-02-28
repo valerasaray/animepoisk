@@ -9,8 +9,8 @@ body {
 }
 
 header {
-	font: clamp(25px, 5vw, 50px) Tahoma, sans-serif;
-	height: clamp(55px, 5vw, 70px);
+	font: clamp(16px, 5vw, 50px) Tahoma, sans-serif;
+	height: clamp(16px, 50%, 80px);
 	width: auto;
 	background-color: #393939;
 	color: #ffffff;
@@ -22,19 +22,26 @@ img {
 	position: absolute;
 	top: 4px;
 	left: 40px;
-	width: clamp(16px, 5vw, 50px);
-	height: clamp(16px, 5vw, 50px);
+	width: clamp(16px, 5vw, 55px);
+	height: clamp(16px, 5vw, 55px);
 }
 
 .btn {
-	text-align: center;
-	display: inline-block;
 	background: linear-gradient(135deg, #f368d5, #a7308d 60%, #991955);
 	color: #fff;
 	padding: 1rem 1.5rem;
 	text-decoration: none;
 	border-radius: 12px;
-	font-size: clamp(1px, 5vw, 50px);/*динамический размер текста*/
+	font-size: clamp(11px, 2vw, 50px);
+	width: clamp(80px, 21%, 500px);
+	height: clamp(40px, 20%, 400px);
+
+	display: inline-block;
+	position: relative;
+}
+
+.butt {
+	text-align: center;
 }
 
 .btn:hover, .btn:focus {
