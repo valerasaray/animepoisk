@@ -18,7 +18,31 @@ header {
 	padding-left: 125px;
 }
 
-img {
+.img_logo {
+	position: absolute;
+	top: 4px;
+	left: 40px;
+	width: clamp(16px, 5vw, 55px);
+	height: clamp(16px, 5vw, 55px);
+}
+
+.img_random {
+	position: absolute;
+	top: 4px;
+	left: 40px;
+	width: clamp(16px, 5vw, 55px);
+	height: clamp(16px, 5vw, 55px);
+}
+
+.img_advanced_search {
+	position: absolute;
+	top: 4px;
+	left: 40px;
+	width: clamp(16px, 5vw, 55px);
+	height: clamp(16px, 5vw, 55px);
+}
+
+.img_rating {
 	position: absolute;
 	top: 4px;
 	left: 40px;
