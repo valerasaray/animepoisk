@@ -51,7 +51,7 @@ header {
 }
 
 .long_btn {
-	background: linear-gradient(135deg, #f368d5, #a7308d 60%, #991955);
+	background: linear-gradient(135deg, #1d1c1d, #2b262a 60%, #252123);
 	color: #fff;
 	padding: 1rem 1.5rem;
 	text-decoration: none;
@@ -74,7 +74,7 @@ header {
 }
 
 .btn {
-	background: linear-gradient(135deg, #f368d5, #a7308d 60%, #991955);
+	background: linear-gradient(135deg, #1d1c1d, #2b262a 60%, #252123);
 	color: #fff;
 	padding: 1rem 1.5rem;
 	text-decoration: none;
